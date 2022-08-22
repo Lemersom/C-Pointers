@@ -46,10 +46,10 @@ int main(){
 	/* ---------- Situation 3 ---------- */
 	printf("\n%d - %d - %d - %d - %d", &n3[0], &n3[1], &n3[2], p3, &p3); // 6684152 - 6684156 - 6684160 - 6684152 - 6684144
 	
-	// will work with structs too(Situation 3), no need to sum the bytes quantity
+	// will work with structs too(Situation 4), no need to sum the bytes quantity
 	printf("\n%d - %d - %d", p3, p3 + 1, p3 + 2); // 6684152 - 6684156 - 6684160
 	
-	/* ---------- Situation 3 ---------- */
+	/* ---------- Situation 4 ---------- */
 	printf("\n%d - %d - %d - %d", &someone[0], &someone[1], &someone[2], &ptrSomeone); // 6684064 - 6684088 - 6684112 - 6684056
 	printf("\n%d - %d - %d", ptrSomeone, ptrSomeone + 1, ptrSomeone + 2); // 6684064 - 6684088 - 6684112
 	
